@@ -1,22 +1,18 @@
 body {
     color: black;
-    background-color: brown;
+    background-image: url("https://previews.123rf.com/images/ekaart/ekaart1605/ekaart160500262/56990705-sagrado-geometr%C3%ADa-s%C3%ADmbolos-y-elementos-de-fondo-de-pantalla-de-patrones-sin-fisuras-dise%C3%B1o-textil-te.jpg");
+    background-attachment: fixed;
+    background-size: 1000px;
     text-align: justify;
     font-family: tahoma;
 }
 
-h1 {
-    font-size: larger;
-    text-align: center;
+a {
+    color: red;
 }
 
-h2 {
+h1, h2, h3 {
     font-size: larger;
-    text-align: center;
-}
-
-h3 {
-    font-size: large;
     text-align: center;
 }
 
@@ -27,4 +23,15 @@ h3 {
     max-height: 1000%;
     height: 480px;
     width: auto;
+}
+
+div {
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 5%;
+}
+
+.video {
+    position: absolute;
+    left: 500px;
 }
