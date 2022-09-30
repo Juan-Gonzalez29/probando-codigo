@@ -1,9 +1,28 @@
 body {
     color: black;
     background-color: brown;
+    text-align: justify;
+    font-family: tahoma;
+}
+
+h1 {
+    font-size: larger;
     text-align: center;
 }
-#perfil {
+
+h2 {
+    font-size: larger;
+    text-align: center;
+}
+
+h3 {
+    font-size: large;
+    text-align: center;
+}
+
+.perfil {
+    display: block;
+    margin: auto;
     max-width: 100%;
     max-height: 1000%;
     height: 480px;
