@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: black;
     background-image: url("https://previews.123rf.com/images/ekaart/ekaart1605/ekaart160500262/56990705-sagrado-geometr%C3%ADa-s%C3%ADmbolos-y-elementos-de-fondo-de-pantalla-de-patrones-sin-fisuras-dise%C3%B1o-textil-te.jpg");
@@ -7,51 +11,72 @@ body {
     font-family: tahoma;
 }
 
+.bigContainer {
+    width: 90%;
+    margin: auto;
+}
+
 a {
     color: red;
 }
 
-h1, h2, h3, h4 {
+h2 {
     font-size: larger;
     text-align: center;
 }
 
 .perfil {
-    display: inline-flex;
-    height: 400px;
-    width: 400px;
+    width: 60%;
+    margin: auto;
+}
+
+.perfil img {
+    width: 60%;
+    margin: auto;
 }
 
 .borde {
     display: inline-block;
-    width: 700px;
-    border-style: solid;
-    border-color: yellowgreen;
-    padding-left: 2%;
-    padding-right: 2%;
-    border-radius: 14%;
-}
-
-.video {
-    display: inline-block;
-    position: relative;
-    left: 500px;
-}
-
-.fija {
-    display: block;
-    width: 300px;
-    height: 200px;
-    background-color: grey;
-    position: absolute;
 }
 
 .cursos {
     display: inline-block;
-    width: 700px;
-    height: 300px;
+    margin: auto;
 }
 
-@media (max-width: 960px) {
-    
+.whatsApp {
+    display: inline-block;
+    text-align: center;
+}
+
+.instagram {
+    display: inline-block;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .perfil {
+        display: flex;
+    }
+
+    .cont {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .whatsApp {
+        width: 48%;
+        margin: 0;
+    }
+
+    .instagram {
+        width: 48%;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cursos {
+        margin-left: 21%;
+    }
 }
