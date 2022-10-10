@@ -122,3 +122,29 @@ function mayorNumero (numUno, numDos) {
         console.log(mayorNumero(13, 26));
         console.log(mayorNumero(43, 17));
         console.log(mayorNumero(5, 5));
+
+const username = document.getElementById("userName")
+const password = document.getElementById("inputPass")
+const button = document.getElementById("btn")
+
+    
+var Usu = juangon29;
+var Pass = Prueba07;
+function login (Usu, Pass) {
+    if (document.querySelector("userName") != Usu, document.querySelector("inputPass") != Pass) {
+        alert =("Usuario o Contraseña Incorrectos.");        
+    } else if (document.querySelector("userName") === Usu, document.querySelector("inputPass") === Pass) {
+        alert =("Bienvenido");
+    } else {
+        document.getElementById("btn") .addEventListener("click", (login) =>{
+            login.preventDefault()
+            const data = {
+                userName: username.value,
+                inputPass: password.value
+            }
+        });
+
+    }
+}
+
+

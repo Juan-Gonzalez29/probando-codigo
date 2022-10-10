@@ -5,28 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ingreso</title>
-    <link rel="stylesheet" href="estil.CSS">
+    <link rel="stylesheet" href="estilos/login.CSS">
 </head>
 <body>
+
+<div class="bigContainer">
+
+    <div class="tittle">
     <h1><strong>Formulario de Ingreso</strong></h1>
+    </div>
 
-    <form method="" action="">
-        <div>
-            <label for="usu">Usuario</label>
-            <input type="text" name="usu" placeholder="Usuario">
+        <div class="formulario">
+             <form method="get" action="curiiculum.html">
+                <div class="usuConatin">
+
+                    <div class="labelUsu">
+                    <label for="usu">Usuario</label>
+                    </div>
+                    <div class="inputUsu">
+                    <input id="userName" type="text" name="usu" placeholder="Usuario">
+                    </div>
+                </div>
+
+                <br><br>
+
+                <div class="passContain">
+
+                    <div class="labelPass">
+                    <label for="pass">Contraseña</label>
+                    </div>
+                    <div class="inputPass">
+                    <input id="inputPass" type="password" name="pass" placeholder="Contraseña">
+                    </div>
+                </div>
+                
+                <br>
+                <div class="send">
+                    <button id="btn" type="submit">Enviar</button>
+                </div>
+            </form>
         </div>
 
-    <br>
+        <script src="js/script.js"></script>   
 
-        <div>
-            <label for="pass">Contraseña</label>
-            <input type="text" name="pass" placeholder="Contraseña">
-        </div>
-
-        <div>
-            <button type="submit">Enviar</button>
-        </div>
-    </form>
+</div>
 
 </body>
 </html>

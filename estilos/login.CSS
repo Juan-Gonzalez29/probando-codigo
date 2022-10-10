@@ -1,0 +1,46 @@
+body {
+    color: black;
+    background-image: url("https://i.giphy.com/media/26FPEOORMeF7oVbMs/giphy.gif");
+    background-attachment: fixed;
+    margin: auto;
+    text-align: justify;
+    font-family: tahoma;
+    font-size: larger;
+}
+
+.bigContainer {
+    width: 90%;
+}
+
+.tittle {
+    text-align: center;
+    color: white;
+}
+
+.labelUsu {
+    color: white;
+    text-align: center;
+}
+
+.labelPass {
+    color: white;
+    text-align: center;
+}
+
+.inputUsu {
+    text-align: center;
+}
+
+.inputPass {
+    text-align: center;
+}
+
+.send {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: 1000px;
+    }
+}
